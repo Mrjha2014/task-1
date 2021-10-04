@@ -3,14 +3,15 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import Card from "./Card";
-import Slider from "./Slider";
 import Contant from "./Contant";
+import CarouselContainer from "./CarouselContainer";
 
 export default function App() {
   return (
     <div>
       <Header />
-      <Slider />
+      <CarouselContainer />
+
       <Contant />
       <Card />
       <Footer />

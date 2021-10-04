@@ -1,8 +1,13 @@
 import React from "react";
-import About from "./About";
-import Contact from "./Contact";
-import { Link } from "react-router-dom";
 
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
 export default function Header() {
   return (
     <>
@@ -19,11 +24,9 @@ export default function Header() {
               Home
             </a>
 
-            <a href="/Contact">Contact</a>
-            <a href="/About">About</a>
-            <a>
-              <i class="fas fa-bars"></i>
-            </a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <a class="fa fa-bars"></a>
           </div>
         </div>
       </header>
