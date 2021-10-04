@@ -11,7 +11,6 @@ export default function App() {
     <div>
       <Header />
       <CarouselContainer />
-
       <Contant />
       <Card />
       <Footer />

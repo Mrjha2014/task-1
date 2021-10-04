@@ -1,13 +1,4 @@
 import React from "react";
-
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
 export default function Header() {
   return (
     <>
@@ -19,14 +10,16 @@ export default function Header() {
           <a href="/" class="logo">
             Logo
           </a>
-          <div class="header-right">
+          <div class="header-right" id="header">
             <a class="active" href="/">
               Home
             </a>
 
             <a href="#">Contact</a>
             <a href="#">About</a>
-            <a class="fa fa-bars"></a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
           </div>
         </div>
       </header>
