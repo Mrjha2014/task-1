@@ -9,16 +9,16 @@ export default function footer() {
         <a href="https://fillerform.info">Filler form </a>
       </p>
 
-      <a href="#">
+      <a href="!#">
         <i class="fa fa-facebook-official"></i>
       </a>
-      <a href="#">
+      <a href="!#">
         <i class="fab fa-instagram"></i>
       </a>
-      <a href="#">
+      <a href="!#">
         <i class="fab fa-twitter"></i>
       </a>
-      <a href="#">
+      <a href="!#">
         <i class="fab fa-linkedin"></i>
       </a>
     </div>
