@@ -1,15 +1,15 @@
 import "./App.css";
 import React from "react";
-import Header from "./Header";
 import Footer from "./Footer";
 import Card from "./Card";
 import Contant from "./Contant";
 import CarouselContainer from "./CarouselContainer";
+import Navbar from "./Navbar";
 
 export default function App() {
   return (
     <div>
-      <Header />
+      <Navbar />
       <CarouselContainer />
       <Contant />
       <Card />
